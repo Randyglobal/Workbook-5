@@ -7,12 +7,12 @@ public class HoverCraft extends Vehicle {
     private boolean isInWater;
     private boolean isInAir;
     //generated Constructor
-    public HoverCraft(int numOfPassengers, int cargoCapacity, int fuelCapacity, int speed, int numOfWheel, String color, double altitude, boolean isInWater, boolean isInAir) {
-        super(numOfPassengers, cargoCapacity, fuelCapacity, speed, numOfWheel, color);
-        this.altitude = altitude;
-        this.isInWater = isInWater;
-        this.isInAir = isInAir;
-    }
+//    public HoverCraft(int numOfPassengers, int cargoCapacity, int fuelCapacity, int speed, int numOfWheel, String color, double altitude, boolean isInWater, boolean isInAir) {
+//        super(numOfPassengers, cargoCapacity, fuelCapacity, speed, numOfWheel, color);
+//        this.altitude = altitude;
+//        this.isInWater = isInWater;
+//        this.isInAir = isInAir;
+//    }
 
     public double getAltitude() {
         return altitude;
@@ -36,5 +36,8 @@ public class HoverCraft extends Vehicle {
 
     public void setInAir(boolean inAir) {
         isInAir = inAir;
+    }
+    public void ride() {
+        System.out.println("Engine On");
     }
 }

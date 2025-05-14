@@ -8,6 +8,10 @@ public class Vehicle {
     private int numOfWheel;
     private String Color;
 
+    public Vehicle() {
+        System.out.println("Hello");
+    }
+
     public Vehicle(int numOfPassengers, int cargoCapacity, int fuelCapacity, int speed, int numOfWheel, String color) {
         System.out.println("Hello");
         this.numOfPassengers = numOfPassengers;
@@ -64,5 +68,8 @@ public class Vehicle {
 
     public void setColor(String color) {
         Color = color;
+    }
+    public void ride(){
+        System.out.println("Engine on");
     }
 }
