@@ -2,7 +2,7 @@ package com.pluralsight.model;
 
 import java.time.LocalDateTime;
 
-public class Asset {
+public abstract class Asset {
     private String description;
     private LocalDateTime dateAcquired;
     private double originalCost;
@@ -36,7 +36,5 @@ public class Asset {
     public void setOriginalCost(double originalCost) {
         this.originalCost = originalCost;
     }
-    public double getValue(){
-        return originalCost;
-    }
+    public abstract double getValue();
 }
