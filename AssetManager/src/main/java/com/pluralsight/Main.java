@@ -1,7 +1,7 @@
 package com.pluralsight;
 
-import AssetsFetch.AssetFetch;
-import AssetsFetch.FileManager;
+import com.pluralsight.data.AssetFetch;
+import com.pluralsight.data.FileManager;
 
 public class Main {
     public static void main(String[] args) {

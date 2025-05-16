@@ -1,8 +1,8 @@
-package com.pluralsight;
+package com.pluralsight.model;
 
 import java.time.LocalDateTime;
 
-public class House extends Asset{
+public class House extends Asset {
     private String Address;
     private int condition;
     private int squareFoot;

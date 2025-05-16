@@ -1,8 +1,8 @@
-package com.pluralsight;
+package com.pluralsight.model;
 
 import java.time.LocalDateTime;
 
-public class Vehicle extends Asset{
+public class Vehicle extends Asset {
     private String makeModel;
     private int year;
     private int odometer;

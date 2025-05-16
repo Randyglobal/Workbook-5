@@ -1,7 +1,7 @@
-package AssetsFetch;
+package com.pluralsight.data;
 
-import com.pluralsight.Asset;
-import com.pluralsight.House;
+import com.pluralsight.model.Asset;
+import com.pluralsight.model.House;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;

@@ -1,6 +1,5 @@
-package com.pluralsight;
+package com.pluralsight.model;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 public class Asset {

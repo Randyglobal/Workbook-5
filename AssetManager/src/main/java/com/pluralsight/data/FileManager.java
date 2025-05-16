@@ -1,6 +1,6 @@
-package AssetsFetch;
+package com.pluralsight.data;
 
-import com.pluralsight.House;
+import com.pluralsight.model.House;
 
 import java.io.*;
 import java.time.LocalDateTime;
